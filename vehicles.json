@@ -1,0 +1,26 @@
+[
+    {
+        "id": "V1",
+        "type": "Truck",
+        "capacity": 1000,
+        "cost_per_km": 5
+    },
+    {
+        "id": "V2",
+        "type": "Van",
+        "capacity": 500,
+        "cost_per_km": 3
+    },
+    {
+        "id": "V3",
+        "type": "Car",
+        "capacity": 200,
+        "cost_per_km": 1
+    },
+    {
+        "id": "V4",
+        "type": "Truck",
+        "capacity": 1200,
+        "cost_per_km": 6
+    }
+]
