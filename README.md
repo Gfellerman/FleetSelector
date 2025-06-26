@@ -18,3 +18,29 @@ FleetSelector is a vehicle selection software designed to help organizations opt
 ## Setup
 
 1. Clone the repository:
+git clone https://github.com/Gfellerman/FleetSelector.git
+cd FleetSelector
+
+2. Make sure you have Python 3 installed.
+
+## Usage
+
+1. Edit `vehicles.json` to reflect your fleet data.
+2. Run the main program:
+python fleet_selector.py
+
+3. Enter the required capacity when prompted.
+4. The program will display the selected vehicles.
+
+## Example
+
+Sample `vehicles.json`:
+```json
+[
+ {"id": "V1", "type": "Truck", "capacity": 1000, "cost_per_km": 5},
+ {"id": "V2", "type": "Van", "capacity": 500, "cost_per_km": 3},
+ {"id": "V3", "type": "Car", "capacity": 200, "cost_per_km": 1},
+ {"id": "V4", "type": "Truck", "capacity": 1200, "cost_per_km": 6}
+]
+Contributing
+Feel free to fork the repo and submit pull requests for improvements or new features!
